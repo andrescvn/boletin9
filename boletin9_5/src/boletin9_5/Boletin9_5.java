@@ -17,9 +17,9 @@ public class Boletin9_5 {
     public static void main(String[] args) {
         // TODO code application logic here
         Series serie= new Series();
-         //serie.serie1();
+         serie.serie1();
          serie.serie2();
-         //serie.serie3();
+         serie.serie3();
     }
     
 }
