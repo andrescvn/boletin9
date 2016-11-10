@@ -21,7 +21,9 @@ public class Boletin9_4 {
         int e;
         Tabla tabla=new Tabla();
         do{
+            do{
         e=Integer.parseInt(JOptionPane.showInputDialog("numero"));
+            }while(e<0);
         tabla.multiplicar(e);
         }while (e!=0);
 
