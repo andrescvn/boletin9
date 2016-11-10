@@ -17,7 +17,7 @@ public class Series {
       int x=1;
       int num=Integer.parseInt(JOptionPane.showInputDialog("numero de veces"));
         do{
-            System.out.println("+"+e);
+            System.out.print("+"+e);
             e+=2;
             x++;
         }while(x<=num);
@@ -26,10 +26,10 @@ public class Series {
         int e=1;
         int x=Integer.parseInt(JOptionPane.showInputDialog("numero de veces"));
                 do{
-                    System.out.println("+"+e);
+                    System.out.print("+"+e);
                     e++;
                     if (e<x)
-                    System.out.println("-"+e);
+                    System.out.print("-"+e);
                     e++;
                 }while (e<=x);
     }
@@ -39,10 +39,10 @@ public class Series {
         int y=1;
         int num=Integer.parseInt(JOptionPane.showInputDialog("numero de veces"));
         do{
-            System.out.println(e);
+            System.out.print(e);
             y++;
             if (y<=num)
-            System.out.println(x);
+            System.out.print(x);
             y++;
             e=x+e;
             x=x+e;
