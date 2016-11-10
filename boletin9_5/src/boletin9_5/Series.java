@@ -28,6 +28,7 @@ public class Series {
                 do{
                     System.out.println("+"+e);
                     e++;
+                    if (e<x)
                     System.out.println("-"+e);
                     e++;
                 }while (e<=x);
