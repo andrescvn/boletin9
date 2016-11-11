@@ -12,9 +12,9 @@ import javax.swing.JOptionPane;
  * @author acomesanavila
  */
 public class Soldo {
-    private double soldo;
-    private int n=0,x=0,y=0;  
     public void soldo(){
+        int n=0,x=0,y=0;
+        double soldo;
     do{
         do{
         soldo=Double.parseDouble(JOptionPane.showInputDialog("soldo")); 
