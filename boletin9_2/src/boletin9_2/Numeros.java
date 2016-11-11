@@ -20,12 +20,12 @@ public class Numeros {
          System.out.println("suma= "+suma);   
     }
     public void producto (){
-    float x=6;
-    float producto=1;
+    float x=10;
+    double producto=1;
          do{
          producto=producto*x;
          x++;
-         }while (5<x&&x<10);
+         }while (10<x&&x<90);
          System.out.println("producto= "+producto); 
 }
 }
