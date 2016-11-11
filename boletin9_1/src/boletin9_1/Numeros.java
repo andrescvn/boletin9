@@ -14,9 +14,8 @@ import javax.swing.JOptionPane;
 public class Numeros {
    public void Numeros (){
         int num=0;
-        int x;
         do{
-        x=Integer.parseInt( JOptionPane.showInputDialog("numero:"));
+        int x=Integer.parseInt( JOptionPane.showInputDialog("numero:"));
         if (x>0)
             System.out.println("positivo");
         else 
