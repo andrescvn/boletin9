@@ -13,18 +13,20 @@ import javax.swing.JOptionPane;
  */
 public class Numeros {
    public void Numeros (){
-        int num=0;
+        int z=0;
+        int c=0;
+        int y=0;
         do{
         int x=Integer.parseInt( JOptionPane.showInputDialog("numero:"));
         if (x>0)
-            System.out.println("positivo");
+        z++;
         else 
             if (x<0)
-                System.out.println("negativo");
+        c++;
             else 
-                System.out.println("cero");
-        num++;
-        }while (num<10);
+        y++;
+        }while ((y+z+c)<10);
+        System.out.println("positivos= "+z+" negativos= "+c+" ceros= "+ y);
    }
     
 }
