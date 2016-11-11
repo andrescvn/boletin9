@@ -11,7 +11,7 @@ package boletin9_2;
  */
 public class Numeros {
     public void suma (){
-       float x = 11;
+       float x = 10;
        float suma=0;
          do{
          suma=suma+x;
