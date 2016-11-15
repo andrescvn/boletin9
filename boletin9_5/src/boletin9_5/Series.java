@@ -26,10 +26,10 @@ public class Series {
         int e=1;
         int x=Integer.parseInt(JOptionPane.showInputDialog("numero de veces"));
                 do{
-                    System.out.print("+"+e);
+                    System.out.print("-"+e);
                     e++;
                     if (e<x)
-                    System.out.print("-"+e);
+                    System.out.print("+"+e);
                     e++;
                 }while (e<=x);
     }
